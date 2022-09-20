@@ -1,0 +1,20 @@
+.sidebarcss{
+    height: calc(100vh - 60px);
+    position: sticky;
+    top: 60px;
+    overflow-y: auto;
+    box-sizing: border-box;
+  
+   
+  }
+  .sidebarcss::-webkit-scrollbar{
+    width: 10px;
+  }
+  .sidebarcss::-webkit-scrollbar-track{
+    background-color: #f1f1f1;
+    
+  }
+  .sidebarcss ::-webkit-scrollbar-thumb{
+   background-color: rgb(15, 12, 12) !important;
+   
+  } 
